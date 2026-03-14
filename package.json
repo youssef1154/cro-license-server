@@ -1,0 +1,16 @@
+{
+  "name": "cro-license-server",
+  "version": "1.0.0",
+  "description": "License validation API for CRO Booster Pack Shopify sections",
+  "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
